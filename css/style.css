@@ -1,0 +1,55 @@
+    body {
+      font-family: helvetica, sans-serif;
+      width: 100%;
+      height: 100%;
+      }
+    .container {
+      margin: 50px 150px;
+    }
+    h1 { font-size: 1.4em; color: black;}
+    h2 { font-size: 1.1em; color: 363535; }
+    h2.tuck { 
+      font-size: 1em; 
+      color: #999; 
+      font-weight: normal; 
+      line-height: 0.7em; 
+      padding-bottom: 30px; 
+      }
+    .amp {
+      background: red;
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      margin-bottom: 50px;
+      }
+    .amp h1 {
+      font-size: 7em;
+      color: white;
+      text-shadow: 1px 1px #B70000;
+      text-align: center;
+      display: table-cell;
+      vertical-align: middle;
+      width: 149px;
+      height: 147px;
+      }
+    .amp:hover {
+      transition: 2s ease all;
+      }
+    .skew:hover {
+      transform: skew(30deg);
+      }
+    .translate:hover {
+      transform: translateX(100px);
+      }
+    .matrix:hover {
+      transform: matrix(3.333, 0.000, 0.000, 3.333, -2493.333, -853.333);
+      }
+    .color:hover {
+      background-color: #FAEF07;
+      }
+    .rotate:hover {
+      transform: rotate(70deg);
+      }
+    .scale:hover {
+      transform: scale(2, 0.5); ;
+      }
